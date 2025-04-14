@@ -9,32 +9,49 @@ Format: PNG with transparency
 Size: Approximately 200x200 pixels (but can be adjusted based on your preference)
 File naming: hangman0.png, hangman1.png, hangman2.png, hangman3.png, hangman4.png, hangman5.png, hangman6.png
 
-What Each Image Should Show
+**What Each Image Should Show**
+
 Based on your original ASCII art:
 
 hangman0.png: Complete gallows with no person (empty state)
+
 hangman1.png: Gallows with head only
+
 hangman2.png: Gallows with head and torso
+
 hangman3.png: Gallows with head, torso, and one arm
+
 hangman4.png: Gallows with head, torso, and both arms
+
 hangman5.png: Gallows with head, torso, both arms, and one leg
+
 hangman6.png: Complete hangman (gallows with head, torso, both arms, and both legs)
 
-Creating Your Own Images
+**Creating Your Own Images**
+
 You can:
 
 Draw them using any image editing software like GIMP, Photoshop, or even MS Paint
+
 Use online tools to create simple drawings
+
 Find free hangman images online (ensure they're free to use)
 
-Alternative: Use a Simple Image Generation Tool
+Alternative: 
+Use a Simple Image Generation Tool
+
 If you don't want to create images manually, you could modify the code to draw the hangman directly using Pygame's drawing functions instead of loading images.
-Sound Effects
+
+
+**Sound Effects**
 The game also looks for sound files in a sounds folder:
 
 correct.wav: Played when a correct letter is guessed
+
 wrong.wav: Played when an incorrect letter is guessed
+
 win.wav: Played when the player wins
+
 lose.wav: Played when the player loses
 
 You can find free sound effects on websites like Freesound.org or create your own using audio editing software.
