@@ -61,4 +61,4 @@ python hangman_pygame.py
 - Record your own sound effects
 
 ## License
-[Your License Information Here]
+By Calvin Andoh
